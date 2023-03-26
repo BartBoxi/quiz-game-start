@@ -1,0 +1,9 @@
+# todo : create a question class with an --init() method with two attributes text and answer attiribute
+
+class Question():
+    def __init__(self, text, answer):
+        self.text = text
+        self.answer = answer
+
+# new_q - Question("What is water", "It is a liquid")
+
